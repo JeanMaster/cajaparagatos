@@ -1,0 +1,13 @@
+body {
+    background: var(--thirtcolor);
+    text-align: center;
+    color: var(--secondcolor);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+a {
+    color: var(--maincolor);
+}

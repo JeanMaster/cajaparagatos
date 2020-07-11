@@ -18,6 +18,14 @@
   --h1: 24px;
 }
 
+
+
+label {
+  display: block;
+  margin-top: var(--mar1);
+  font-size: var(--font1);
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -49,6 +57,7 @@ a {
   padding: var(--pad1);
   color: var(--thirtcolor);
 }
+
 a:hover {
   color: var(--secondcolor);
 }
@@ -76,6 +85,7 @@ main {
   justify-content: center;
   margin-top: -16em;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .products-details {
@@ -101,6 +111,10 @@ main {
   color: var(--secondcolor);
   border-radius: 2px;
   font-size: 14px;
+}
+
+.button-link {
+  padding: 0px;
 }
 
 .main-button:hover {
@@ -176,7 +190,7 @@ footer {
   font-size: var(--font1) ;
   align-items: center;
   justify-content: space-between;
-  margin-top: 200px;
+  box-sizing: border-box;
 }
 
 footer a {
@@ -186,6 +200,55 @@ footer a:hover{
   text-decoration: underline;
   color: var(--maincolor);
 }
-footer p {
+.footer  {
  margin-right: 10px;
+ margin-top: 2em;
 }
+
+/* venta estilos */
+
+.venta-container {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.venta-product-description img {
+  width: auto;
+  height: 180px;
+  padding: 10px;
+}
+
+.imgcontainer {
+  text-align: center;
+}
+
+
+
+.venta-product-description {
+  box-shadow: var(--box);
+  width:250px ;
+  padding: 10px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+form {
+box-shadow: var(--box);
+padding: 30px;
+}
+.main-button {
+  margin-top: 10px;
+}
+form input {
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--thirtcolor);
+  box-sizing: border-box;
+}
+
+

@@ -3,43 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/nomalice.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/animation.css">
     <title>Brand, Tu caja para gatos</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="header fadeIndown ">
         <figure class="header-logo">
-            <img src="./images/logo.png" alt="logo Brand Cajas para gatos">
-        </figure>
+            <a href="./index.html"><img src="./images/logo.png" alt="logo Brand Cajas para gatos">
+            </figure></a>
         <nav class="header-menu">
             <ul>
                 <li><a href="#">Faqs</a></li>
-                <li><a href="#"> Producto / descriptción</a></li>
+                <li><a href="./producto.html"> Producto / descriptción</a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
         <div class="main-tittle-container">
-        <h1 class="main-tittle">
+        <h1 class="main-tittle fadeIn">
             Este es un producto increible, no se que haces viendo que lo puedes tener
         </h1>
         </div>
         <section class="main-products-container">
             <div class="section-product">
-                <div class="products-details">
+                <div class="products-details fadeInup">
                     <div class="prodcut-img-container">
                         <img src="./images/box1.png" alt="">
                     </div>
                     <h1>Prodcuto 1</h1>
                     <p>miles de productos hay en el mercado,  pero nada como una caja con gatitos</p>
-                    <button href="#" class="main-button">Lo quiero </button>
+                    <a href="venta.html"> <button class="main-button">Lo quiero </button></a>
                 </div>
-                <div class="products-details">
+                <div class="products-details fadeInup">
                         <img src="./images/box2.png" alt="">
                         <h1>Prodcuto 2</h1>
                         <p>miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
-                        <button href="#" class="main-button">Lo quiero </button>
+                       <a class="button-link" href="venta.html"> <button class="main-button">Lo quiero </button></a>
                 </div>
         </section>
     </main>
@@ -95,9 +99,9 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="footer">
         <a href="#">Terminos y condiciones</a>
-        <p>Jeancarlos70@gmail.com</p>
+        
     </footer>
 </body>
 </html>
